@@ -1,0 +1,112 @@
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+h1{
+  color: white;
+  padding: 1% 2%;
+}
+.navLazy h2{
+  color: white;
+  text-align: right ;
+  margin-right: 2%;
+}
+
+.linkLazyPage{
+  font-size: 20px;
+  text-align: right ;
+  padding: 1% 5%;
+  color: white !important;
+}
+.linkLazyPage a{
+  color: white;
+}
+
+body{
+  background:url(../image/main.jpg); 
+  background-repeat: no-repeat; 
+  background-size: cover;
+}
+
+.navbar {
+    overflow: hidden;
+    background-color:#FF7F50;
+  }
+
+  .dropdown1,
+  .dropdown2,
+  .dropdown3,
+  .dropdown4,
+  .dropdown5,
+  .dropdown6 {      
+    float: left;
+    overflow: hidden;
+  }
+
+  .dropdown1 .dropbtn,
+  .dropdown2 .dropbtn,
+  .dropdown3 .dropbtn,
+  .dropdown4 .dropbtn,
+  .dropdown5 .dropbtn,
+  .dropdown6 .dropbtn{
+    font-size: 27px;  
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 29px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+  }
+
+  .dropdown1:hover .dropbtn,
+  .dropdown2:hover .dropbtn,
+  .dropdown3:hover .dropbtn,
+  .dropdown4:hover .dropbtn,
+  .dropdown5:hover .dropbtn,
+  .dropdown6:hover .dropbtn {
+    background-color: red;
+  }
+
+  .food-content,
+  .accessories-content,
+  .body-care-content,
+  .health-care-content,
+  .toys-content,
+  .grooming-tips-content{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+
+  .food-content a,
+  .accessories-content a,
+  .body-care-content a,
+  .health-care-content a,
+  .toys-content a,
+  .grooming-tips-content a {
+    font-size: 20px ;
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .dropdown1:hover .food-content,
+  .dropdown2:hover .accessories-content,
+  .dropdown3:hover .body-care-content,
+  .dropdown4:hover .health-care-content,
+  .dropdown5:hover .toys-content,
+  .dropdown6:hover .grooming-tips-content {
+    display: block;
+  }
+
+  
