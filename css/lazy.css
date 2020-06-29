@@ -1,0 +1,46 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+  
+  h1{
+    color: white;
+    padding: 1% 2%;
+  }
+  .chooseShop h1{
+    color: white;
+    padding: 1% 2%;
+    text-align: center;
+  }
+  body{
+    background:url(../image/lazy.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+  
+  .button {
+    background-color: #2e2104;
+    border: none;
+    color: white;
+    padding: 20px 34px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .navMain h2{
+    color: white;
+    text-align: right ;
+    margin-right: 2%;
+  }
+
+  .linkMainPage{
+    font-size: 20px;
+    text-align: right ;
+    padding: 1% 5%;
+  }
