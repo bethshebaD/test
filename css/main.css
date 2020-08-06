@@ -67,16 +67,16 @@ body{
   .dropdown3:hover .dropbtn,
   .dropdown4:hover .dropbtn,
   .dropdown5:hover .dropbtn,
-  .dropdown6:hover .dropbtn {
+  .dropdown6:hover .dropbtn{
     background-color: red;
   }
 
   .food-content,
-  .accessories-content,
   .body-care-content,
   .health-care-content,
   .toys-content,
-  .grooming-tips-content{
+  .grooming-tips-content,
+  .age-content{
     display: none;
     position: absolute;
     background-color: #f9f9f9;
@@ -86,11 +86,11 @@ body{
   }
 
   .food-content a,
-  .accessories-content a,
   .body-care-content a,
   .health-care-content a,
   .toys-content a,
-  .grooming-tips-content a {
+  .grooming-tips-content a ,
+  .age-content a{
     font-size: 20px ;
     float: none;
     color: black;
@@ -101,11 +101,11 @@ body{
   }
 
   .dropdown1:hover .food-content,
-  .dropdown2:hover .accessories-content,
-  .dropdown3:hover .body-care-content,
-  .dropdown4:hover .health-care-content,
-  .dropdown5:hover .toys-content,
-  .dropdown6:hover .grooming-tips-content {
+  .dropdown2:hover .body-care-content,
+  .dropdown3:hover .health-care-content,
+  .dropdown4:hover .toys-content,
+  .dropdown5:hover .grooming-tips-content, 
+  .dropdown6:hover .age-content{
     display: block;
   }
 
