@@ -1,0 +1,20 @@
+body{
+    background:url(../image/HBD_Age.jpg); 
+    background-repeat: no-repeat; 
+    background-size: cover;
+  }
+
+  h2{
+    text-align: center;
+    background-color: white;
+  }
+
+  .linkMainPage{
+    font-size: 20px;
+    text-align: right ;
+  }
+
+  #CalculateAgeTotal{
+  font-size: 20px;
+  }
+
