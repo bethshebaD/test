@@ -1,28 +1,10 @@
-
-*{
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-
-h1{
-  color: white;
-  padding: 1% 2%;
-}
-.navLazy h2{
-  color: white;
-  text-align: right ;
-  margin-right: 2%;
-}
-
-.linkLazyPage{
-  font-size: 20px;
-  text-align: right ;
-  padding: 1% 5%;
-  color: white !important;
-}
-.linkLazyPage a{
-  color: white;
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: "Larsseit";
+  font-weight: lighter;
 }
 
 body{
@@ -31,82 +13,69 @@ body{
   background-size: cover;
 }
 
-.navbar {
-    overflow: hidden;
-    background-color:#FF7F50;
-  }
 
-  .dropdown1,
-  .dropdown2,
-  .dropdown3,
-  .dropdown4,
-  .dropdown5,
-  .dropdown6 {      
-    float: left;
-    overflow: hidden;
-  }
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  font-family: "Lato", sans-serif;
+}
 
-  .dropdown1 .dropbtn,
-  .dropdown2 .dropbtn,
-  .dropdown3 .dropbtn,
-  .dropdown4 .dropbtn,
-  .dropdown5 .dropbtn,
-  .dropdown6 .dropbtn{
-    font-size: 27px;  
-    border: none;
-    outline: none;
-    color: white;
-    padding: 14px 29px;
-    background-color: inherit;
-    font-family: inherit;
-    margin: 0;
-  }
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
 
-  .dropdown1:hover .dropbtn,
-  .dropdown2:hover .dropbtn,
-  .dropdown3:hover .dropbtn,
-  .dropdown4:hover .dropbtn,
-  .dropdown5:hover .dropbtn,
-  .dropdown6:hover .dropbtn{
-    background-color: red;
-  }
+.sidenav a:hover {
+  color: #f1f1f1;
+}
 
-  .food-content,
-  .body-care-content,
-  .health-care-content,
-  .toys-content,
-  .grooming-tips-content,
-  .age-content{
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1;
-  }
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  font-size: 20px;
+}
 
-  .food-content a,
-  .body-care-content a,
-  .health-care-content a,
-  .toys-content a,
-  .grooming-tips-content a ,
-  .age-content a{
-    font-size: 20px ;
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    text-align: left;
-  }
 
-  .dropdown1:hover .food-content,
-  .dropdown2:hover .body-care-content,
-  .dropdown3:hover .health-care-content,
-  .dropdown4:hover .toys-content,
-  .dropdown5:hover .grooming-tips-content, 
-  .dropdown6:hover .age-content{
-    display: block;
-  }
 
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.media-menu ul li {
+  display: inline-block;
+  padding-right: 10px;
+  color: #818181;
+}
   
+.navigation-space{
+  background-color: #111 !important;
+  transition: background-color 300ms linear;
+  position: fixed;
+  width: 100%;
+  height: 60px;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.brand span a {
+  position: absolute;
+  line-height: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 300;
+  letter-spacing: 4px;
+}
